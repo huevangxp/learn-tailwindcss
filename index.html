@@ -10,48 +10,5 @@
 
   <body class="p-10 bg-black text-white font-mono">
 
-    <!-- dark mode -->
-    <div class="w-full h-10">
-      <div class="flex items-center justify-between">
-        <h1 class="text-4xl">🌚</h1>
-        <button
-          id="darkMode"
-          class="bg-violet-600 text-white px-2 py-1 rounded-md"
-        >
-          Toggle
-        </button>
-      </div>
-    </div>
-
-    <div
-      class="bg-violet-200 h-10 w-full border-2 border-violet-600 rounded-md my-4 p-2 dark:bg-violet-600 dark:border-violet-200"
-    >
-      <h1 class="text-center font-mono font-extrabold">Hello World</h1>
-    </div>
-
-    <!-- flex -->
-    <div class="mt-10 flex flex-col items-center justify-center space-y-6">
-      <div class="h-16 w-16 rounded-full bg-violet-600"></div>
-      <div class="h-16 w-16 rounded-full bg-blue-600"></div>
-      <div class="h-16 w-16 rounded-full bg-green-600"></div>
-    </div>
-
-    <!-- grid -->
-    <div class="mt-10 grid grid-cols-4 gap-4 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-3">
-      <div class="h-16 rounded-full bg-gradient-to-r from-violet-600 to-blue-600 shadow-lg shadow-[#000]"></div>
-      <div class="h-16 rounded-full bg-gradient-to-b from-blue-600 to-green-600 shadow-lg shadow-[#000]"></div>
-      <div class="h-16 rounded-full bg-gradient-to-t from-green-600 to-violet-600 shadow-lg shadow-[#000]"></div>
-      <div class="h-16 rounded-full bg-gradient-to-l from-violet-600 to-blue-600 shadow-lg shadow-[#000]"></div>
-    </div>
-
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", () => {
-        const darkMode = document.getElementById("darkMode");
-
-        darkMode.addEventListener("click", () => {
-          document.documentElement.classList.toggle("dark");
-        });
-      });
-    </script>
-  </body>
+    
 </html>
