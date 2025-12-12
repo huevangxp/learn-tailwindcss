@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* OPTIONAL: only needed if you want custom dark selector */
+/* Tailwind already supports dark: out of the box */
+@custom-variant dark (&:where(.dark *));
+
+/* Do NOT override body manually */
+/* Use Tailwind dark mode classes in HTML */
+/*
+body {
+    background-color: black;
+}
+*/
+
+@theme {
+  /* write your Tailwind theme customizations here if needed */
+  colors {
+    primary: #7c3aed;
+  }
+}
